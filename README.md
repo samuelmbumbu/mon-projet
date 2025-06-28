@@ -26,9 +26,10 @@
 	•	GitHub
 
 
----
-
 ## 📁 Structure du projet
+
+=======
+```
 
 📦 nom-du-repo
   ┣ 📂 project/                # Code source principal du projet
@@ -36,6 +37,7 @@
   ┃ ┗ 📄 cahier-de-charge.pdf  # Cahier des charges au format PDF
   ┣ 📄 README.md               # Présentation du projet
   ┗ 📄 .gitignore              # Fichier gitignore
+
 
 ---
 
