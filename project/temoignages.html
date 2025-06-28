@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Témoignages - Chez Flore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ils ont adoré leur expérience chez ChezFlore. Découvrez les témoignages de nos clients satisfaits.">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <a href="accueil.html" class="logo"><span>CHEZ</span>FLORE</a>
+    <div class="menu-toggle"></div>
+    <nav aria-label="Navigation principale">
+      <ul class="navbar">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="adresse.html" class="active">Adresse</a></li>
+        <li><a href="reservation.php" class="btn-reserve">Réservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="temoignages-section">
+      <div class="overlay">
+        <h1 class="titre-principal">Ils ont adoré ChezFlore</h1>
+        <div class="carrousel">
+          <div class="temoignage">
+            <p>« Un voyage culinaire inoubliable. Le poulet moambe était divin ! »</p>
+            <h4>– Aïcha, Kinshasa</h4>
+          </div>
+          <div class="temoignage">
+            <p>« Accueil chaleureux, ambiance familiale. On reviendra sans hésiter ! »</p>
+            <h4>– Jules, Gombe</h4>
+          </div>
+          <div class="temoignage">
+            <p>« Un vrai goût du pays, comme à la maison. Félicitations au chef ! »</p>
+            <h4>– Clarisse, Limete</h4>
+          </div>
+          <div class="temoignage">
+            <p>« Service rapide, plats généreux et savoureux. Rien à redire. »</p>
+            <h4>– David, Ngaliema</h4>
+          </div>
+          <div class="temoignage">
+            <p>« ChezFlore est devenu notre resto préféré du week-end ! »</p>
+            <h4>– Naomi, Bandal</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 ChezFlore - Tous droits réservés - Fait par Samuel MBUMBU Ig.</p>
+      <div class="social-icons">
+        <a href="https://wa.me/243840071513" target="_blank" title="WhatsApp">
+          <img src="./img/WhatsApp Image 2025-06-16 à 15.09.05_8fa6fbf1.jpg" alt="Icône WhatsApp de ChezFlore">
+        </a>
+        <a href="https://www.instagram.com/m.b.u.m.b.u" target="_blank" title="Instagram">
+          <img src="./img/WhatsApp Image 2025-05-29 à 21.48.19_b2ad9a9e.jpg" alt="Icône Instagram de ChezFlore">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

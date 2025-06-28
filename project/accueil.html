@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chez Flore - Accueil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ChezFlore, restaurant congolais à Kinshasa. Dégustez nos spécialités dans une ambiance chaleureuse.">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <a href="accueil.html" class="logo"><span>CHEZ</span>FLORE</a>
+    <div class="menu-toggle"></div>
+    <nav aria-label="Navigation principale">
+      <ul class="navbar">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="adresse.html">Adresse</a></li>
+        <li><a href="reservation.php" class="btn-reserve">Réservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-fond">
+      <div class="overlay">
+        <div class="contenu">
+          <h2>Que Des Plats Délicieux !</h2>
+          <p class="fantaisie">Venez profiter de nos plats typiquement congolais aux saveurs variées avec vos proches.</p>
+          <p class="fantaisie">ChezFlore est un restaurant basé à Kinshasa proposant divers plats de spécialité congolaise, le tout dans une ambiance conviviale. Venez découvrir des saveurs authentiques et une hospitalité chaleureuse !</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 ChezFlore - Tous droits réservés - Fait par Samuel MBUMBU Ig.</p>
+      <div class="social-icons">
+        <a href="https://wa.me/243840071513" target="_blank" title="WhatsApp">
+          <img src="./img/WhatsApp Image 2025-06-16 à 15.09.05_8fa6fbf1.jpg" alt="Icône WhatsApp de ChezFlore">
+        </a>
+        <a href="https://www.instagram.com/m.b.u.m.b.u" target="_blank" title="Instagram">
+          <img src="./img/WhatsApp Image 2025-05-29 à 21.48.19_b2ad9a9e.jpg" alt="Icône Instagram de ChezFlore">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

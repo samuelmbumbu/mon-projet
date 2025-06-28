@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Adresse - Chez Flore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Où nous trouver ? Découvrez l'adresse de ChezFlore à Gombe, Kinshasa.">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <a href="accueil.html" class="logo"><span>CHEZ</span>FLORE</a>
+    <div class="menu-toggle"></div>
+    <nav aria-label="Navigation principale">
+      <ul class="navbar">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="adresse.html" class="active">Adresse</a></li>
+        <li><a href="reservation.php" class="btn-reserve">Réservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="adresse-section">
+      <div class="overlay">
+        <h1 class="titre-principal">Retrouvez-nous à Gombe</h1>
+        <p class="sous-titre">Notre adresse officielle à Kinshasa</p>
+        
+        <div class="adresse-bloc">
+          <h3>ChezFlore Gombe</h3>
+          <p>Av. du Commerce 12, Gombe, Kinshasa</p>
+        </div>
+
+        <div class="carte-google">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.887820734394!2d15.299108814133043!3d-4.319708597062204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3387283f7d2d%3A0x9b9a4471ee33d6e7!2sAvenue%20du%20Commerce%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1718566720000!5m2!1sfr!2scd" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 ChezFlore - Tous droits réservés - Fait par Samuel MBUMBU Ig.</p>
+      <div class="social-icons">
+        <a href="https://wa.me/243840071513" target="_blank" title="WhatsApp">
+          <img src="./img/WhatsApp Image 2025-06-16 à 15.09.05_8fa6fbf1.jpg" alt="Icône WhatsApp de ChezFlore">
+        </a>
+        <a href="https://www.instagram.com/m.b.u.m.b.u" target="_blank" title="Instagram">
+          <img src="./img/WhatsApp Image 2025-05-29 à 21.48.19_b2ad9a9e.jpg" alt="Icône Instagram de ChezFlore">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
